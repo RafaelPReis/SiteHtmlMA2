@@ -1,0 +1,437 @@
+:root{
+    --color-white: #fff;
+    --color-dark1: #1a1c24;
+    --color-dark2: #24252f;
+    --color-dark3: #414141;
+    --color-dark4: #1c1c1c;
+    --color-dark5: #343434;
+    --color-blue: #3b8eed;
+    --color-text1: #9293a6;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightgrey;
+}
+
+
+#cabeçalho{
+    background-color: #363636 ;
+    color: rgb(255, 255, 255);
+    padding: 10px 0px 10px 0px;
+    width: 90%;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px black;
+    text-align: center;
+    margin-top: 150px;
+}
+#cabeçalho img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+#primeira{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 10px 0px 10px 0px;
+    width: 90%;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px black;
+    text-align: center;
+   
+}
+
+
+#time1{
+    width: 100px;
+    height: 100px;
+}
+
+
+#time2{
+    width: 100px;
+
+}
+
+#time3{
+    width: 200px;
+}
+
+#times{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+#todosostimes{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 10px 0px 10px 0px;
+    width: 90%;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px black;
+    text-align: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+#form {
+    background-color: #a91492;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#formulario{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 10px 0px 10px 0px;
+    width: 90%;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px black;
+    text-align: center;
+}
+
+/* Estilizando o dropdown */
+.dropdown {
+    position: relative;
+    display: inline-flex;
+    
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+    
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 8px 0;
+    text-decoration: none;
+    display: block;
+    
+  }
+
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+
+  .dropbtn{
+    text-decoration: none;
+    color: var(--color-text1);
+    transition: 1s;
+    font-weight:600;
+    padding: 0px;
+    
+    
+  }
+
+  nav {
+    display: flex;
+    justify-content: baseline;
+}
+
+li {
+    margin: 0 20px;  
+    border-bottom: 3px solid transparent; 
+}
+
+fieldset{
+    border-radius: 5px;
+    margin: 0 20px
+}
+
+#gruposamericas {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: inline-block;
+    margin: 0 auto 20px;
+}
+
+#formatokickoff {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: inline-block;
+    margin: 0 auto 20px;
+}
+
+#AmericasKickoff{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 10px 0px 10px 0px;
+    width: 90%;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px black;
+    text-align: center;   
+
+}
+
+#Campanhas{
+    text-align: left;
+}
+
+figure {
+    text-align: center;
+  }
+  figcaption {
+    font-style: italic; 
+    color: #666; 
+  }
+
+  #MastersMadrid{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 10px 0px 10px 0px;
+    width: 90%;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px black;
+    text-align: center;   
+
+}
+
+header,
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+header{
+    background-color: var(--color-dark2);
+    box-shadow: 1px 1px 4px var(--color-dark4);
+    height: 100px;
+    justify-content: space-between;
+    padding: 0 10%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 80%;
+
+}
+nav{
+    gap: 35px;
+}
+nav a{
+    text-decoration: none;
+    color: var(--color-text1);
+    transition: 1s;
+    font-weight:600;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;    
+    margin: 35px;
+    flex-direction: column;
+}
+
+.btn_icon_header{
+    display: none;
+    background-color: transparent;
+    border: none;
+    color: var(--color-text1);
+    cursor: pointer;
+}
+
+.gallery { 
+    display: flex; flex-wrap: wrap; justify-content: center; 
+}
+.gallery img {
+     margin: 10px; max-width: 300px; max-height: 250px;
+    border: 2px solid #ddd; border-radius: 5px; box-shadow: 0px 0px 10px
+    #888888; 
+}
+
+.team-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.team-name-info{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.country{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 14px;
+    color: #929a9e;
+    font-weight: 400;
+    align-items: center;
+}
+
+.team-logo{
+    width: 20%;
+    height: 20%;
+    display: block;
+}
+
+.team_name{
+    font-size: 24px;
+    color: #929a9e;
+    font-weight: 700;
+    margin: 0
+}
+
+.team_card {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    border-radius: 8px;
+    height: auto;
+    width: 70%;
+    background-color: var(--color-dark2);
+    justify-content: center;
+    padding: 10px;
+    gap: 10px;
+    align-items: center;
+}
+
+.recent-matches{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: auto;
+    background-color: var(--color-dark2);
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.camp-name{
+    color: #929a9e;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.player_row{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.player_card {
+    width: 80%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 4px;
+    background-color: var(--color-dark1);
+}
+
+.player {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 10px;
+}
+
+.player_name{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    color: #c2c8ca;
+}
+
+.descricao_player{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+    align-items: center;
+    gap: 10px;
+}
+
+.bandeira{
+    width: 17%;
+    height: 17%;
+}
+
+.bandeira2{
+    width: 22%;
+    height: 22%;
+}
+
+
+.x-button{
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    border: none;
+    background-color: #a5a6b1;
+    border-radius: 4px;
+    box-shadow: #333;
+}
+
+.x-button img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    box-shadow: #333;
+}
+
+#logo{
+    width: 100px;
+}
+
+
+
